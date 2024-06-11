@@ -1,4 +1,4 @@
-from models import CONN, CURSOR
+from models.__init__ import CONN, CURSOR
  
 from models.author import Author
 

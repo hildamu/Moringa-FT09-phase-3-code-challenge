@@ -1,7 +1,7 @@
-from models import CONN, CURSOR
- 
+from models.__init__ import CURSOR, CONN
+
 class Author:
-    def __init__(self, name):
+    def __init__(self, name=None):
         self.conn = CONN
         self.cursor = CURSOR
         self._id = None
